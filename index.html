@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vocabulary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="app.js"></script>
+  <!--<script>
+  $.get("AccessAllow.php", function(data) {
+    alert(data);
+  });
+  </script> -->
+  <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  </script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</head>
+
+<body>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Practice</a></li>
+      <li><a href="#tabs-2">Add</a></li>
+      <li><a href="#tabs-3">Output json</a></li>
+    </ul>
+
+    <div id="tabs-1">
+      <h1 id="name">name</h1>
+      <h1 id="symbol">symbol</h1>
+      <h1 id="content">123</h1>
+      <input type="button" class="button" id="sound" value="sound" />
+      <input type="button" class="button" id="next" value="next" />
+    </div>
+
+    <div id="tabs-2">
+      <p><input type="input" id="name_txt" /></p>
+      <p><input type="input" id="content_txt" /></p>
+      <input type="button" value="save" id="save"/>
+    </div>
+
+    <div id="tabs-3">
+
+    </div>
+    
+  </div>
+</body>
+
+</html>

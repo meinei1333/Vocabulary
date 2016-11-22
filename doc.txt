@@ -1,0 +1,29 @@
+Access-Control-Allow-Origin
+000webhost
+
+firebase.json
+redirects
+                                                                                                           
+Project Console: https://console.firebase.google.com/project/vocabulary-dbbd2/overview                                        
+Hosting URL: https://vocabulary-dbbd2.firebaseapp.com
+
+http://www.facebook.com/will.fans
+
+npm install -g firebase-tools
+firebase login
+
+https://console.firebase.google.com/project/vocabulary-dbbd2/overview 
+https://vocabulary-dbbd2.firebaseapp.com
+
+
+redirects": [ {
+  "source" : “index.html”,
+  "destination" : “http://vocabulary.firebaseapp.com”,
+  "type" : 301
+}, {
+  "source" : "index.html*",
+  "destination" : "http://vocabulary.firebaseapp.com",
+  "type" : 302
+} ]
+
+http://localhost:3000/db/voc.json
